@@ -1,49 +1,35 @@
-# Project Title
+# flex-panel-gallery
 
-project description
-
----
-
-## User Story Dependencies
-
-[Story Dependency Diagram](https://excalidraw.com/)
-
----
-
-## WIREFRAME
-
-![wireframe or figma]()
+ Build an image gallery using Flexbox, CSS transitions and JavaScript to get things interactive.
 
 ---
 
 ## 0.Setup
 
+- Generate a repository from `javascript-30-starter` that include the structure Separation Of Concern concept. (logic, handlers, listeners, data, & init)
+- Include a Lisence
+
 ---
 
-## X. Story Name
+## 1. User Story: See a simple quote text and a gallery of nice pictures
 
-> how much work do you think this step will take? small, medium, large?
+- Declare the panels classes with the background images (& flexbox). `.panel` have `transition` which is transitioning the font size, the flex and the background.
+- Create a function to tell the class open
 
-**As a user I want to \_\_\_ so that \_\_\_**
+## 2. User Story: Interactive gallery
 
-- [ ] _Given [context] when [a specific action is performed] then [a set of consequences should occur]_
-- [ ] ...
+Listener:
+
+- Listen for the `click`event. It's run the toggle function transitioning itself open.
+- Listen for the `transitionend`event. It's trigger transition that turn CSS open and when that finishes the second one transition end will fired.
+
+Handler:
+
+- Function that's going to toggle class of on
 
 ### REPO
 
-- This user story is developed on branch `_`.
-- This branch is merged to `master` branch after the acceptance criteria have been checked off.
-
-### Concern A
-
-- `file-name.js`: what is this file for? who is it assigned to?
-
-### Concern B
-
-- `file-name.js`: what is this file for? who is it assigned to?
-
-### ...
-
----
-
-## ...
+- This user story is developed on master.
+- Run the project locally
+- Push changes
+- Turn on GitHub pages
