@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf8" />
-    <title>your project name</title>
-
-    <link href="./public/style.css" rel="stylesheet" />
-  </head>
-
-  <body>
-    <div id="user-interface" class="centered">
-      <textarea id="input"></textarea>
-      <br />
-      separator: <input id="separator-input" />
-      <br />
-      <pre id="output" class="scrollable"></pre>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-panel-gallery</title>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./public/style.css" />
+    <script src="./src/handlers/toggleActive.js"></script>
+    <script src="./src/handlers/toggleOpen.js"></script>
+</head>
+<body>
+    <div class="panels">
+    <div class="panel panel1">
+      <p>Hey</p>
+      <p>Let's</p>
+      <p>Dance</p>
     </div>
-
-    <!-- initialize your application -->
-    <script type="module" src="src/init.js"></script>
-
-    <!-- load the review buttons for your live deployment  -->
-    <script src="./lib/review-buttons.js"></script>
-  </body>
+    <div class="panel panel2">
+      <p>Give</p>
+      <p>Take</p>
+      <p>Receive</p>
+    </div>
+    <div class="panel panel3">
+      <p>Experience</p>
+      <p>It</p>
+      <p>Today</p>
+    </div>
+    <div class="panel panel4">
+      <p>Give</p>
+      <p>All</p>
+      <p>You can</p>
+    </div>
+    <div class="panel panel5">
+      <p>Life</p>
+      <p>In</p>
+      <p>Motion</p>
+    </div>
+  </div>
+  <script src="./src/listeners/toggleActive.js"></script>
+  <script src="./src/listeners/toggleOpen.js"></script>
+</body>
 </html>
